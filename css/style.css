@@ -1,0 +1,28 @@
+.border{
+    background-color:#2c90824d;
+}
+.header{
+    background-color:#ff5c5c;
+}
+.intro{
+    background-color:#54cc95;
+}
+.port{
+    background-color:#5bced7;
+}
+.contact{
+    background-color:#e65981;
+}
+.social{
+    background-color:#3995d8;
+}
+.social .fa{
+    font-size:50px;
+    color:black;
+    padding:10px;
+    border:3px solid blue;
+    border-radius:20%;
+}
+.footer{
+    background-color:#12505b;
+}
