@@ -2,16 +2,19 @@
 <html>
 <head>
     <title>Portfolio</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid text-center">
         <div class="row header">
             <div class="col-md-6">
             <h1>Riyadh Hossain Bhuiyan</h1>
@@ -20,7 +23,7 @@
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <button type="button" class="btn btn-block navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+                            <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target="#Navbar">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -40,7 +43,7 @@
 
         <div class="row intro">
             <div class="col-md-6">
-                <img class="img-responsive border" src="img/Me3.png" alt="me">
+                <img class="img-responsive border center-block" src="img/Me3.png" alt="me">
             </div>
 
             <div class="col-md-6">
@@ -54,10 +57,10 @@
             <h2 class="text-center">Portfolio</h2>
             </div>
 
-            <div class="col-md-6"><img class="img-responsive border" src="http://placehold.it/500x350" alt="ph1"></div>
-            <div class="col-md-6"><img class="img-responsive border" src="http://placehold.it/500x350" alt="ph2"></div>
-            <div class="col-md-6"><img class="img-responsive border" src="http://placehold.it/500x350" alt="ph3"></div>
-            <div class="col-md-6"><img class="img-responsive border" src="http://placehold.it/500x350" alt="ph4"></div>
+            <div class="col-md-6"><img class="img-responsive img-thumbnail border center-block" src="http://placehold.it/500x350" alt="ph1"></div>
+            <div class="col-md-6"><img class="img-responsive img-thumbnail border center-block" src="http://placehold.it/500x350" alt="ph2"></div>
+            <div class="col-md-6"><img class="img-responsive img-thumbnail border center-block" src="http://placehold.it/500x350" alt="ph3"></div>
+            <div class="col-md-6"><img class="img-responsive img-thumbnail border center-block" src="http://placehold.it/500x350" alt="ph4"></div>
         </div><!--end of portfolio-->
 
         <div class="row contact">
@@ -66,10 +69,16 @@
             </div>
 
             <div class="col-md-6">
-                Mail form
+                <form action="/submit-email">
+                    <input class="form-control" type="text" placeholder="Name">
+                    <input class="form-control" type="text" placeholder="E-mail address">
+                    <input class="form-control" type="text" placeholder="Phone">
+                    <input class="form-control" type="text" placeholder="Message">
+                    <button class="btn btn-block btn-info"><i class="fa fa-send"></i>Send</button>
+                </form>
             </div>
             <div class="col-md-6">
-                <p>You want to get in touch with me? Have any questions about a project? Feel free to send me a message. I'll get back to you soon.</p>
+                <p>Want to get in touch with me? Have any questions about a project? <br>Feel free to send me a message. I'll get back to you soon.</p>
             </div>
         </div><!--end of contact-->
 
@@ -85,7 +94,7 @@
 
         <div class="row footer">
             <div class="col-md-12">
-                <h4>&copy; Riyadh Hossain Bhuiyan. All rights reserved.</h4>
+                <h4 class="text-center">&copy; Riyadh Hossain Bhuiyan. All rights reserved.</h4>
             </div>
         </div><!--end of footer-->
 

@@ -1,5 +1,12 @@
+/*mobile first*/
+@media only screen and (max-width: 768px){
+    *{
+        margin:0;
+        padding:0;
+    }
+
 .border{
-    background-color:#2c90824d;
+
 }
 .header{
     background-color:#ff5c5c;
@@ -23,6 +30,19 @@
     border:3px solid blue;
     border-radius:20%;
 }
+.social .fa:hover{
+    color:#3995db;
+    border-color: white;
+    background-color: black;
+}
 .footer{
+    color:white;
     background-color:#12505b;
+}
+
+
+}/*end of mobile first*/
+
+@media only screen and (min-width: 767px){
+
 }
