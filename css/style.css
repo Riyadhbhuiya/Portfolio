@@ -1,18 +1,58 @@
 /*mobile first*/
-@media only screen and (max-width: 768px){
-    *{
-        margin:0;
-        padding:0;
-    }
+@media only screen and (max-width:499px){
 
-.border{
-
-}
 .header{
     background-color:#ff5c5c;
+    position:fixed;
+    z-index:1;
+    width:100%;
 }
 .intro{
     background-color:#54cc95;
+    margin-top:239px;
+    }
+.port{
+    background-color:#5bced7;
+}
+.contact{
+    background-color:#e65981;
+}
+.social{
+    background-color:#3995d8;
+}
+.social .fa{
+    font-size:50px;
+    color:black;
+    padding:10px;
+    border:3px solid blue;
+    border-radius:20%;
+}
+.social .fa:hover{
+    color:#12505b;
+    border-color: #54cc95;
+    background-color: #ff5c5c;
+}
+.footer{
+    color:white;
+    background-color:#12505b;
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width:500px){
+
+.header{
+    background-color:#ff5c5c;
+    position:fixed;
+    z-index:1;
+    width:100%;
+}
+
+.intro{
+    background-color:#54cc95;
+    margin-top:auto;
 }
 .port{
     background-color:#5bced7;
@@ -31,9 +71,9 @@
     border-radius:20%;
 }
 .social .fa:hover{
-    color:#3995db;
-    border-color: white;
-    background-color: black;
+    color:#12505b;
+    border-color: #54cc95;
+    background-color: #ff5c5c;
 }
 .footer{
     color:white;
@@ -43,6 +83,19 @@
 
 }/*end of mobile first*/
 
-@media only screen and (min-width: 767px){
+/*Big screen*/
+@media only screen and (min-width: 769px){
+    *{
+        background-color:grey;
+    }
+}/*end of big screen*/
 
+/*.header{
+    position:fixed;
+    z-index:1;
+    width:100%;
 }
+
+.intro{
+    margin-top:199px;
+}*/
