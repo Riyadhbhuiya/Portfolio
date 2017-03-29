@@ -18,6 +18,9 @@
     background-color:#54cc95;
     font-family: 'Titillium Web', sans-serif;
 }
+.intro p{
+    font-size: 18px;
+}
 .port{
     background-color:#5bced7;
     font-family: 'Titillium Web', sans-serif;
@@ -25,6 +28,9 @@
 .contact{
     background-color:#e65981;
     font-family: 'Titillium Web', sans-serif;
+}
+.contact p{
+    font-size: 18px;
 }
 .social{
     background-color:#3995d8;
@@ -84,6 +90,9 @@
     margin-top:179px;
     font-family: 'Titillium Web', sans-serif;
 }
+.intro p{
+    font-size: 22px;
+}
 .navigation{
     padding-top:15px;
 }
@@ -96,6 +105,12 @@
 .contact{
     font-family: 'Titillium Web', sans-serif;
     margin-bottom: 5px;
+}
+.contact h2{
+    padding-bottom: 5px;
+}
+.contact p{
+    font-size: 22px;
 }
 .social{
     background-color: lightgrey;
