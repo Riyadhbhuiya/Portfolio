@@ -53,6 +53,7 @@
     border-bottom:2px solid white;
 }
 .footer{
+    padding-top: 5px;
     color:white;
     background-color:#12505b;
     font-family: 'Titillium Web', sans-serif;
@@ -120,7 +121,6 @@
 }
 
 .footer{
-    margin-top: 5px;
     color:white;
     background-color:#336699;
     font-family: 'Titillium Web', sans-serif;
