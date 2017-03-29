@@ -120,6 +120,7 @@
 }
 
 .footer{
+    margin-top: 5px;
     color:white;
     background-color:#336699;
     font-family: 'Titillium Web', sans-serif;
@@ -135,6 +136,10 @@
 }
 .mail{
     font-family: 'Indie Flower', cursive;
+}
+h2{
+    color:black;
+    text-decoration: none;
 }
 
 /*end of all screens*/
