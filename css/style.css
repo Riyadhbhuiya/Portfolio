@@ -12,42 +12,50 @@
 
 .header{
     background-color:#ff5c5c;
-    position:fixed;
-    z-index:1;
-    width:100%;
 }
 
 .intro{
     background-color:#54cc95;
-    margin-top:140px;
-}
-.border{
-    padding-top:80px;
+    font-family: 'Titillium Web', sans-serif;
 }
 .port{
     background-color:#5bced7;
+    font-family: 'Titillium Web', sans-serif;
 }
 .contact{
     background-color:#e65981;
+    font-family: 'Titillium Web', sans-serif;
 }
 .social{
     background-color:#3995d8;
+    font-family: 'Titillium Web', sans-serif;
 }
 .social .fa{
-    font-size:50px;
+    font-size:25px;
     color:black;
     padding:10px;
-    border:3px solid blue;
-    border-radius:20%;
+    border:1px solid white;
+    border-radius:10%;
 }
 .social .fa:hover{
     color:#12505b;
-    border-color: #54cc95;
-    background-color: #ff5c5c;
+    border-color: black;
+}
+.social .top{
+    text-decoration: none;
+    color:black;
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+    border-bottom:2px solid black;
+}
+.social .top:hover{
+    color:white;
+    border-bottom:2px solid white;
 }
 .footer{
     color:white;
     background-color:#12505b;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -62,9 +70,9 @@
     z-index:1;
     width:100%;
     background-color:#336699;
-    font-family: 'Revalia', cursive;
     color:white;
     box-shadow: 5px 0px 20px #369;
+    font-family: 'Titillium Web', sans-serif;
 }
 .navbar ul li:hover{
     color:white;
@@ -72,22 +80,61 @@
 }
 
 .intro{
-    margin-top:199px;
+    margin-top:179px;
+    font-family: 'Titillium Web', sans-serif;
 }
 .navigation{
     padding-top:15px;
 }
-.mail{
-    font-family: 'Indie Flower', cursive;
+.port{
+    font-family: 'Titillium Web', sans-serif;
 }
-
-
+.port img{
+    margin:20px auto;
+}
+.contact{
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 5px;
+}
+.social{
+    background-color: lightgrey;
+}
+.social .fa{
+    font-size:50px;
+    color:black;
+    padding:10px;
+}
+.social .fa:hover{
+    color:#12505b;
+}
+.social .top{
+    text-decoration: none;
+    color:black;
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+    border-bottom:2px solid black;
+}
+.social .top:hover{
+    color:white;
+    background-color: black;
+}
 
 .footer{
     color:white;
     background-color:#336699;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 }
 /*end of big screen*/
 
+/*All screens*/
+
+.header{
+    font-family: 'Revalia', cursive;
+}
+.mail{
+    font-family: 'Indie Flower', cursive;
+}
+
+/*end of all screens*/
